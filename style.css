@@ -19,16 +19,16 @@ position: relative;
 }
 
 .logo {
-    width:374px;
-    /* height:67px; */
-    width: auto;
-    height: auto;
+    max-width:374px;
+    max-height:67px;
+    /* width: auto;
+    height: auto; */
 }
 .logo:hover {
-    width:375px;
-    /* height:68px; */
-    width: auto;
-    height: auto;
+    max-width:375px;
+    max-height:68px
+    /* width: auto;
+    height: auto; */
 }
 
 /* Estilo do menu superior esquerdo */
