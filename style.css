@@ -45,6 +45,7 @@ position: relative;
 }
 .itemmenu:hover{
  color:#46cc9b;
+ cursor: pointer;
 }
 
 .itemmenu:active{
@@ -174,6 +175,7 @@ a:hover{
 
 
 .botao:hover {
+    cursor:pointer;
     background-color: #46cc9b;
 
     transition-duration: 0.4s;
