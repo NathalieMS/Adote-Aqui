@@ -24,12 +24,12 @@ position: relative;
     width: auto;
     height: auto;
 }
-.logo:hover {
+/* .logo:hover {
     max-width:355px;
     max-height:150px;
     width: auto;
     height: auto;
-}
+} */
 
 /* Estilo do menu superior esquerdo */
 .menu{
@@ -44,7 +44,7 @@ position: relative;
     font-weight: bolder;
 }
 .itemmenu:hover{
- color:#90E39A;
+ color:#46cc9b;
 }
 
 .itemmenu:active{
@@ -68,9 +68,14 @@ nav{
     flex-wrap: wrap;
     margin: auto;
     background-color: #737373;
+    
 
     padding-top:  1em;
     padding-bottom:  1em;
+}
+
+.vitrine p{
+    padding: 10px;
 }
 
 .gatinhos {
@@ -110,7 +115,7 @@ nav{
 .fundinhoverde {
     display: flex;
     color: white;
-    background-color: #90E39A;
+    background-color: #46cc9b;
     display:flex;
     justify-content: center;
     text-align:justify;
@@ -131,7 +136,7 @@ footer {
     margin:0;
     padding:1em;
     border:0;
-background-color: #90E39A;
+background-color: #46cc9b;
 color: white;
         bottom: 0;
 position: relative;
@@ -169,7 +174,7 @@ a:hover{
 
 
 .botao:hover {
-    background-color: #90E39A;
+    background-color: #46cc9b;
 
     transition-duration: 0.4s;
 }
@@ -217,7 +222,7 @@ a:hover{
     margin: 0 auto;
     }
     .itemmenu:hover{
-        border: 0.2em solid #90E39A;
+        border: 0.2em solid #46cc9b;
         
     }
     nav{
